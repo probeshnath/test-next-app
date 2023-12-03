@@ -1,0 +1,41 @@
+{
+    "posts": [
+        {
+          "id": 1,
+          "title": "Exploring the wonders of nature",
+          "likes_count": 120,
+          "description": "Embark on a journey through lush forests and serene landscapes. Witness the beauty of untouched nature as we delve into the secrets of the wilderness. Join us in this extraordinary adventure!"
+        },
+        {
+          "id": 2,
+          "title": "The art of coding",
+          "likes_count": 80,
+          "description": "Dive into the world of programming and discover the elegance of code. From algorithms to creative problem-solving, we explore the artistry behind software development. Join us on this coding odyssey!"
+        },
+        {
+          "id": 3,
+          "title": "Culinary delights: A world tour",
+          "likes_count": 200,
+          "description": "Savor the flavors of global cuisine as we embark on a culinary journey around the world. From street food to fine dining, join us in experiencing the diverse and delicious wonders of international gastronomy."
+        },
+        {
+          "id": 4,
+          "title": "Mindful living: Finding balance",
+          "likes_count": 150,
+          "description": "Explore the principles of mindfulness and discover practical ways to bring balance to your life. From meditation techniques to mindful practices, join us on the path to a more harmonious and fulfilling existence."
+        },
+        {
+          "id": 5,
+          "title": "Space exploration: Beyond the stars",
+          "likes_count": 250,
+          "description": "Embark on a cosmic journey as we explore the wonders of the universe. From distant galaxies to celestial phenomena, join us in unraveling the mysteries of space and unlocking the secrets of the cosmos."
+        },
+        {
+          "id": 6,
+          "title": "Tech innovations: Shaping the future",
+          "likes_count": 180,
+          "description": "Stay ahead of the curve with the latest in technology. From groundbreaking innovations to futuristic trends, join us in exploring the dynamic world of tech that is reshaping the way we live, work, and connect."
+        }
+      ]
+      
+}
