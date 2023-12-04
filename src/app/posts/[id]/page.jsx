@@ -1,11 +1,31 @@
 import Link from 'next/link';
 import React from 'react'
 
+
+
+export async function generateStaticParams(){
+    // for specipic id 
+    // return [{id: "1"},{id: "2"},]
+
+    // all ids
+    const res = await fetch(`http://localhost:5000/posts`)
+    const posts = await res.json();
+    const ids = posts.map(post =>{
+        return {
+            id: post.id + ""
+        }
+    })
+    console.log(ids)
+
+}
+
+
+
 const PostDetail = async ({ params }) => {
     const res = await fetch(`http://localhost:5000/posts/${params.id}`)
     const post = await res.json();
 
-    console.log(params.id)
+    // console.log(params.id)
     return (
         <div>
             <h2 className='text-center text-5xl'>Post Detail page</h2>
