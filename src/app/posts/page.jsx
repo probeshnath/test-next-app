@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import React from 'react'
+import styles from './Posts.module.css';
 
 const Posts = async () => {
     const res = await fetch("http://localhost:5000/posts",{
-        cache: "no-store"
+        // cache: "no-store"
 
         // cache: "force-cache"
 
@@ -17,7 +17,7 @@ const posts = await res.json();
     // console.log(posts)
     return (
         <div>
-            <h2 className='text-3xl'>Total Posts: {posts.length} </h2>
+            <h2 className={styles.header_text}>Total Posts: {posts.length} </h2>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
                 {
                     posts.map(post => (
